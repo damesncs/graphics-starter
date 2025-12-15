@@ -34,3 +34,7 @@ function drawCanvasBorder(){
 function clearCanvas(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
+
+function getRandom(min, max) {
+    return Math.random() * (max - min) + min;
+}

@@ -30,3 +30,7 @@ function drawCircle(x, y, radius, color){
 function drawCanvasBorder(){
     ctx.strokeRect(0, 0, canvas.width, canvas.height);
 }
+
+function clearCanvas(){
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
